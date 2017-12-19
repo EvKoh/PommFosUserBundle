@@ -8,7 +8,7 @@ This bundle permit to use FosUserBundle with Pomm easily.
 
 With composer :
 ```
-composer require vibby/pomm-project-fos-user-bundle dev-master
+composer require evkoh/pomm-project-fos-user-bundle dev-master
 ```
 
 You can execute [SQL script](src/lib/Resources/database/tables.sql) to create table.
@@ -27,7 +27,7 @@ parameters:
 fos_user:
     db_driver: custom
     firewall: main
-    user_class: Vibby\PommProjectFosUserBundle\Model\User
+    user_class: EvKoh\PommProjectFosUserBundle\Model\User
     from_email:
         address:        noreply@myhost.ltd
         sender_name:    Do not reply
@@ -48,8 +48,7 @@ parameters:
 
 fos_user:
     user_class: Path\To\MyOwnUser
-    
-Those two classes must inherit from `Vibby\PommProjectFosUserBundle\Model\User` and `Vibby\PommProjectFosUserBundle\Model\UserModel` on your own bundle to override this model.
+
+Those two classes must inherit from `EvKoh\PommProjectFosUserBundle\Model\User` and `EvKoh\PommProjectFosUserBundle\Model\UserModel` on your own bundle to override this model.
 
 See an example of implementation here : https://github.com/vibby/germ/blob/master/src/GermBundle/Model/Germ/PersonSchema/AccountModel.php
-

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vibby\PommProjectFosUserBundle\Model;
+namespace EvKoh\PommProjectFosUserBundle\Model;
 
 use PommProject\ModelManager\Model\Model;
 use PommProject\ModelManager\Model\Projection;
@@ -8,8 +8,8 @@ use PommProject\ModelManager\Model\ModelTrait\WriteQueries;
 
 use PommProject\Foundation\Where;
 
-use Vibby\PommProjectFosUserBundle\Model\User;
-use Vibby\PommProjectFosUserBundle\Model\UserStructure;
+use EvKoh\PommProjectFosUserBundle\Model\User;
+use EvKoh\PommProjectFosUserBundle\Model\UserStructure;
 
 /**
  * UserModel
@@ -34,7 +34,7 @@ class UserModel extends Model
     public function __construct()
     {
         $this->structure = new UserStructure;
-        $this->flexible_entity_class = '\Vibby\PommProjectFosUserBundle\Model\User';
+        $this->flexible_entity_class = '\EvKoh\PommProjectFosUserBundle\Model\User';
     }
 
     public function findUserWhere(Where $where)

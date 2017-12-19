@@ -1,6 +1,6 @@
 <?php
 
-namespace Vibby\PommProjectFosUserBundle\Model;
+namespace EvKoh\PommProjectFosUserBundle\Model;
 
 use PommProject\ModelManager\Model\FlexibleEntity;
 use FOS\UserBundle\Model\UserInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vibby\PommProjectFosUserBundle\Manager;
+namespace EvKoh\PommProjectFosUserBundle\Manager;
 
 /**
  * MemberModel

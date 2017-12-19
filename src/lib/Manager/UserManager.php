@@ -1,16 +1,16 @@
 <?php
 
-namespace Vibby\PommProjectFosUserBundle\Manager;
+namespace EvKoh\PommProjectFosUserBundle\Manager;
 
 use FOS\UserBundle\Model\UserManager as BaseUserManager;
 use FOS\UserBundle\Model\UserInterface;
-use Vibby\PommProjectFosUserBundle\Exception\Exception;
+use EvKoh\PommProjectFosUserBundle\Exception\Exception;
 use FOS\UserBundle\Util\CanonicalizerInterface;
-use Vibby\PommProjectFosUserBundle\Entity\UserEntity;
+use EvKoh\PommProjectFosUserBundle\Entity\UserEntity;
 use PommProject\Foundation\Inflector;
 use PommProject\Foundation\Where;
-use Vibby\PommProjectFosUserBundle\Model\User;
-use Vibby\PommProjectFosUserBundle\Manager\UserModelManager;
+use EvKoh\PommProjectFosUserBundle\Model\User;
+use EvKoh\PommProjectFosUserBundle\Manager\UserModelManager;
 
 /**
  * Description of UserManager

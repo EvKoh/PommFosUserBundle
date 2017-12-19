@@ -1,6 +1,6 @@
 <?php
 
-namespace Vibby\PommProjectFosUserBundle;
+namespace EvKoh\PommProjectFosUserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -5,7 +5,7 @@
  * generation.
  */
 
-namespace Vibby\PommProjectFosUserBundle\Model;
+namespace EvKoh\PommProjectFosUserBundle\Model;
 
 use PommProject\ModelManager\Model\RowStructure;
 

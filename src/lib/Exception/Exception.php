@@ -1,6 +1,6 @@
 <?php
 
-namespace Vibby\PommProjectFosUserBundle\Exception;
+namespace EvKoh\PommProjectFosUserBundle\Exception;
 
 /**
  * Description of Exception
