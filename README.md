@@ -26,7 +26,7 @@ parameters:
 
 fos_user:
     db_driver: custom
-    firewall: main
+    firewall_name: main
     user_class: EvKoh\PommProjectFosUserBundle\Model\User
     from_email:
         address:        noreply@myhost.ltd
